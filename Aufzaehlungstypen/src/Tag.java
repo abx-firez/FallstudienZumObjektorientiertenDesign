@@ -17,4 +17,15 @@ public enum Tag {
 		}
 		return 0;
 	}
+	
+	//Alternative seit Java 14
+	public int arbeitszeit2() {
+		return switch(this) {
+		case MONTAG, DIENSTAG, MITTWOCH, DONNERSTAG -> 0;
+		case FREITAG -> 8;
+		case SAMSTAG -> 4;
+		case SONNTAG -> 0;
+		default -> 0;
+		};
+	}
 }
