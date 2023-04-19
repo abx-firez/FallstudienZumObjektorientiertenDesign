@@ -1,0 +1,19 @@
+Sie arbeiten als Softwareentwickler bei einem Unternehmen, das ein Online-Shop-System entwickelt. Eine der Hauptfunktionen des Systems besteht darin, Produkte zu verwalten. Schreiben Sie eine Java-Klasse namens "ProductManager", die eine ArrayList von Produkten verwaltet und die folgenden Methoden implementiert:
+
+    - addProduct(Product product): Fügt ein Produkt zur Liste hinzu.
+    - removeProduct(Product product): Entfernt ein Produkt aus der Liste.
+    - getProduct(int index): Gibt das Produkt an der angegebenen Position in der 
+      Liste zurück.
+    - getProducts(): Gibt die gesamte Liste der Produkte zurück.
+    - searchProducts(String keyword): Sucht nach Produkten, die das angegebene  	   
+      Stichwort im Namen oder in der Beschreibung enthalten, und gibt eine Liste 
+      der gefundenen Produkte zurück.
+
+Erstellen Sie ein Interface "Displayable", das eine Methode namens "display()" definiert, welches durch die "Product"-Klasse wird. Die Methode soll alle Attribute einer Product-Instanz strukturiert ausgeben. Implementieren Sie auch das Interface "Comparable" in der "Product"-Klasse, um Produkte nach ihrem Preis sortieren zu können. Testen Sie Ihre Implementierungen entsprechend, in dem Sie alle Methoden einzeln testen und entsprechend ausgeben.
+
+Hinweis: Die "Product"-Klasse soll folgende Attribute besitzen: Name, Beschreibung, Preis, Kategorie.
+
+Teile und herrsche!
+Java-Konzepte sind key!
+Programmieren Sie nicht alleine.
+Übung!

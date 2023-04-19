@@ -61,7 +61,7 @@ public class Student {
 	// Verwende Name nicht, wegen Änderung bei Heirat.
 	public int hashCode(){
 		return vorname.hashCode() + matrikelNr ;
-		//return name.hashCode();
+//		return name.hashCode();
 	}
 	
 	// Verwende Name nicht, wegen Änderung bei Heirat.

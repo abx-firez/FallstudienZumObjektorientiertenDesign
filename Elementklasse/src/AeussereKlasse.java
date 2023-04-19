@@ -1,16 +1,16 @@
 
 public class AeussereKlasse {
-	private int zahl;
+	private int auesserezahl;
 
 	public AeussereKlasse(int z){
 		setZahl(z);
 	}
 	public int getZahl() {
-		return zahl;
+		return auesserezahl;
 	}
 
 	public void setZahl(int zahl) {
-		this.zahl = zahl;
+		this.auesserezahl = zahl;
 	}
 	
 	public void meineMethode(){
@@ -19,22 +19,22 @@ public class AeussereKlasse {
 	}
 	
 	private class InnereKlasse{
-		private int meineZahl;
+		private int innereZahl;
 
 		public InnereKlasse(int z){
 			setMeineZahl(z);
 		}
 		public int getMeineZahl() {
-			return meineZahl;
+			return innereZahl;
 		}
 
 		public void setMeineZahl(int meineZahl) {
-			this.meineZahl = meineZahl;
+			this.innereZahl = meineZahl;
 		}
 		
 		public void ausgeben(){
-			System.out.println("In InnereKlasse: zahl = " + zahl);
-			System.out.println("In InnereKlasse: meineZahl = " + meineZahl);
+			System.out.println("In InnereKlasse: auesserezahl = " + auesserezahl);
+			System.out.println("In InnereKlasse: innerezahl = " + innereZahl);
 		}
 	}
 }
