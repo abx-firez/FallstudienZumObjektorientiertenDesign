@@ -1,22 +1,26 @@
 package lamdbathis;
 
+import java.util.function.Predicate;
+
 /**
  * Beispiel von https://openbook.rheinwerk-verlag.de/javainsel/12_001.html#u12
  * Listing 12.3 src/main/java/com/tutego/insel/lambda/InnerVsLambdaThis.java,
  * Ausschnitt
  *
  */
-class InnerVsLambdaThis {
+public class InnerVsLambdaThis {
 
+	String fooString = "foo";
+	
 	public InnerVsLambdaThis() {
-
-		Runnable lambdaRun = () -> System.out.println(this.getClass().getName());
+		
+		Runnable lambdaRun = () -> System.out.println(this.getClass().getName() + ", " + fooString);
 
 		Runnable innerRun = new Runnable() {
 
 			@Override
 			public void run() {
-				System.out.println(this.getClass().getName());
+				System.out.println(this.getClass().getName() + ", " + fooString);
 			}
 
 		};
@@ -29,7 +33,11 @@ class InnerVsLambdaThis {
 
 	public static void main(String[] args) {
 
-		new InnerVsLambdaThis();
+//		new InnerVsLambdaThis();
+	
+		Predicate<Integer> predicate = x -> x % 2 == 0;
+		System.out.println("Predicate Gerade?: " + predicate.test(14));
+
 
 	}
 

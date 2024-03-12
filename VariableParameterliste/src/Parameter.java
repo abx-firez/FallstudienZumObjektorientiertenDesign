@@ -1,9 +1,6 @@
 
 public class Parameter {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Berechnungen b = new Berechnungen();
 
@@ -17,8 +14,6 @@ public class Parameter {
 		System.out.println("intSumme2(3, 4, 12, 14, 18, 32) = " + b.intSumme2(a));
 
 		System.out.println("intSumme3(3, 4, 12, 14, 18, 32) = " + b.intSumme3(3, 4, 12, 14, 18, 32));
-
-		System.out.println(d);
 
 	}
 
