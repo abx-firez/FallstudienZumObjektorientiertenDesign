@@ -7,24 +7,16 @@ public class Hauptprogramm {
 	public static void main(String[] args) {
 		Jahreszeit j = Jahreszeit.HERBST;
 		switch (j) {
-		case FRUEHLING:
-			System.out.println("Die Blumen blühen.");
-			break;
-		case SOMMER:
-			System.out.println("Ab in's Freibad.");
-			break;
-		case HERBST:
-			System.out.println("Die Blätter fallen.");
-			break;
-		case WINTER:
-			System.out.println("Winter is coming...");
-			break;
+		case FRUEHLING -> System.out.println("Die Blumen blï¿½hen.");
+		case SOMMER -> System.out.println("Ab in's Freibad.");
+		case HERBST -> System.out.println("Die Blï¿½tter fallen.");
+		case WINTER -> System.out.println("Winter is coming...");
 		}
 		
 		System.out.println("\n\n---------------------- Eigene Methoden in enums");		
 		
 		for (Tag t : Tag.values()){
-			System.out.printf("Arbeitszeit am %s beträgt %d Stunden.%n", 
+			System.out.printf("Arbeitszeit am %s betrï¿½gt %d Stunden.%n", 
 					t.name(), t.arbeitszeit());
 			for (Tag d : Tag.values()){
 				if(t.compareTo(d) < 0) {

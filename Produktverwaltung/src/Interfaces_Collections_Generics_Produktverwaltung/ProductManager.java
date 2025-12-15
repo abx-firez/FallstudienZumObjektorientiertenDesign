@@ -63,7 +63,7 @@ public class ProductManager {
 	public ArrayList<Product> searchProducts(String keyword) {
 		ArrayList<Product> results = new ArrayList<Product>();
 		for (Product pr : products) {
-			if (pr.getName().contains(keyword) | pr.getDescription().contains(keyword)) {
+			if (pr.getName().contains(keyword) || pr.getDescription().contains(keyword)) {
 				// einer Ergebnisliste hinzugefuegt werden
 				results.add(pr);
 			}
