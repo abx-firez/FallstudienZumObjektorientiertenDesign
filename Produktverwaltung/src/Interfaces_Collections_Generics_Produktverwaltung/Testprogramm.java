@@ -35,7 +35,7 @@ public class Testprogramm {
 		displayAllProducts(gefundeneProdukte);
 		
 		System.out.println("Sortierung nach Preis");
-		pm.getProducts().sort(null);
+		pm.getProducts().sort(java.util.Comparator.naturalOrder());
 		displayAllProducts(pm.getProducts());
 		
 	}
