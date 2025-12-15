@@ -11,8 +11,8 @@ public class Programm {
 	public static void main(String[] args) {
 		long start, ende;
 		String test = null;
-		ArrayList<String> arrListe = new ArrayList<String>();
-		LinkedList<String> linListe = new LinkedList<String>();
+		ArrayList<String> arrListe = new ArrayList<>();
+		LinkedList<String> linListe = new LinkedList<>();
 
 		System.out.println("Befuellen ArrayList:");
 		start = System.currentTimeMillis();

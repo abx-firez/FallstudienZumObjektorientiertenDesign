@@ -13,7 +13,7 @@ public class Programm {
 		// diese einmal nach Matrikelnummer und einmal
 		// nach Gr��e.
 		
-		LinkedList<Student> studierende = new LinkedList<Student>();
+		LinkedList<Student> studierende = new LinkedList<>();
 		
 		// Bef�llen der Liste:
 		studierende.add(new Student("Maier", "Hugo", 123456, 5, 167));

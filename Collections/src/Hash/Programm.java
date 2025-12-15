@@ -12,7 +12,7 @@ public class Programm {
 	public static void main(String[] args) {
 		Student s = new Student("Maier", "Hugo", 123456, 5, 167);
 		
-		HashMap<Integer, Student> hashMap = new HashMap<Integer, Student>();
+		HashMap<Integer, Student> hashMap = new HashMap<>();
 		hashMap.put(1, s);
 		hashMap.put(1, s);
 				

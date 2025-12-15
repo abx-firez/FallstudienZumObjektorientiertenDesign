@@ -16,7 +16,7 @@ public class ProductManager {
 	private ArrayList<Product> products;
 
 	public ProductManager() {
-		products = new ArrayList<Product>();
+		products = new ArrayList<>();
 	}
 
 	/**
@@ -61,7 +61,7 @@ public class ProductManager {
 	 * der gefundenen Produkte zurueck.
 	 */
 	public ArrayList<Product> searchProducts(String keyword) {
-		ArrayList<Product> results = new ArrayList<Product>();
+		ArrayList<Product> results = new ArrayList<>();
 		for (Product pr : products) {
 			if (pr.getName().contains(keyword) || pr.getDescription().contains(keyword)) {
 				// einer Ergebnisliste hinzugefuegt werden
