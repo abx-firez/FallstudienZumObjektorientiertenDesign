@@ -40,12 +40,6 @@ public class Studentin implements Comparable<Studentin> {
 	}
 
 	public int compareTo(Studentin s) {
-		if (matrikelNr == s.getMatrikelNr()) {
-			return 0;
-		} else if (matrikelNr < s.getMatrikelNr()) {
-			return -1;
-		} else {
-			return 1;
-		}
+		return Integer.compare(matrikelNr, s.getMatrikelNr());
 	}
 }
