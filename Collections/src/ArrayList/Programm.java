@@ -8,7 +8,7 @@ public class Programm {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		ArrayList<String> liste = new ArrayList<String>();
+		ArrayList<String> liste = new ArrayList<>();
 		liste.add("Hugo");
 		liste.add("Hans");
 		liste.add("Heinz");

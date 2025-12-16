@@ -3,7 +3,7 @@ package lambda;
 public class BerechnungenMain {
 
 	public static void main(String[] args) {
-		IRectangleCalculator rect = (length, width) -> { return length * width; };
+		IRectangleCalculator rect = (length, width) -> length * width;
 		System.out.println("Flaeche: " + rect.getArea(4, 3));
 		
 		// "Anweisungskette"

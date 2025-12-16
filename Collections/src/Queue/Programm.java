@@ -11,7 +11,7 @@ public class Programm {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Queue<Student> studis = new LinkedList<Student>();
+		Queue<Student> studis = new LinkedList<>();
 		
 		studis.offer(new Student("Maier", "Hugo", 111111, 5, 167));
 		studis.offer(new Student("Müller", "Hans", 222222, 1, 201));

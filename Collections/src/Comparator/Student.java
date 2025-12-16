@@ -50,25 +50,20 @@ public class Student {
 	}
 	
 	public String toString(){
-		String erg = "Semester: " + semester;
-		erg += " MatrikelNr: " + matrikelNr;
-		erg += " Name: " + name;
-		erg += " Vorname: " + vorname;
-		erg += " Groesse: " + groesse;
-		return erg;
+		return "Semester: %d MatrikelNr: %d Name: %s Vorname: %s Groesse: %d"
+				.formatted(semester, matrikelNr, name, vorname, groesse);
 	}
 	
-	// Verwende Name nicht, wegen Änderung bei Heirat.
+	// Verwende Name nicht, wegen ï¿½nderung bei Heirat.
 	public int hashCode(){
 //		return vorname.hashCode() + matrikelNr;
 //		return name.hashCode();
 		return vorname.hashCode() + matrikelNr + semester ;
 	}
 	
-	// Verwende Name nicht, wegen Änderung bei Heirat.
+	// Verwende Name nicht, wegen ï¿½nderung bei Heirat.
 	public boolean equals(Object o){
-		if (o instanceof Student)  {
-			Student other = (Student)o;
+		if (o instanceof Student other)  {
 			return (this.vorname.equals(other.vorname)
 					&& this.matrikelNr == other.matrikelNr);
 		}

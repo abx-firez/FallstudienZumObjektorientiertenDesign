@@ -16,7 +16,7 @@ public class ProductManager {
 	private ArrayList<Product> products;
 
 	public ProductManager() {
-		products = new ArrayList<Product>();
+		products = new ArrayList<>();
 	}
 
 	/**
