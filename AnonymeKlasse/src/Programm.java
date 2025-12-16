@@ -9,8 +9,8 @@ public class Programm {
 		System.out.println("Kubische Werte:");
 		b.Wertetafel(k);
 		
-		// Was muss ich tun, wenn ich quardratische Werte berechnen möchte mit meiner Wertetafel?
-		// Natürlich mit anonymer Klasse
+		// Was muss ich tun, wenn ich quardratische Werte berechnen moechte mit meiner Wertetafel?
+		// Natuerlich mit anonymer Klasse
 		System.out.println("Quadratische Werte:");
 		
 		

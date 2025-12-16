@@ -6,16 +6,16 @@ public class Main {
 		int number = 5;
 
 		// Pattern Matching
-		// Ermöglicht es, neben dem Matching auf eine
-		// bestimmte Bedingung zu prüfen und nur dann den entsprechenden Block
-		// auszuführen
+		// Ermoeglicht es, neben dem Matching auf eine
+		// bestimmte Bedingung zu pruefen und nur dann den entsprechenden Block
+		// auszufuehren
 		// -> siehe z.B. https://www.baeldung.com/java-switch-pattern-matching
 		switch (number) {
 			case 1 -> System.out.println("Eins");
 			case 2 -> System.out.println("Zwei");
 			case 3 -> System.out.println("Drei");
 			case 4 -> System.out.println("Vier");
-			case 5 -> System.out.println("Fünf");
+			case 5 -> System.out.println("Fuenf");
 			default -> System.out.println("Kein Match");
 		}
 

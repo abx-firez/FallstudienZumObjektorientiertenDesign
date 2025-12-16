@@ -6,9 +6,7 @@ public class Student {
 	private int matrikelNr;
 	private int groesse;
 	private int semester;
-	
-	
-	
+
 	public Student(String name, String vorname, 
 			int matrikelNr, int semester,int groesse) {
 		setGroesse(groesse);
@@ -54,14 +52,14 @@ public class Student {
 				.formatted(semester, matrikelNr, name, vorname, groesse);
 	}
 	
-	// Verwende Name nicht, wegen �nderung bei Heirat.
+	// Verwende Name nicht, wegen Änderung bei Heirat.
 	public int hashCode(){
 //		return vorname.hashCode() + matrikelNr;
 //		return name.hashCode();
 		return vorname.hashCode() + matrikelNr + semester ;
 	}
 	
-	// Verwende Name nicht, wegen �nderung bei Heirat.
+	// Verwende Name nicht, wegen Änderung bei Heirat.
 	public boolean equals(Object o){
 		if (o instanceof Student other)  {
 			return (this.vorname.equals(other.vorname)

@@ -35,7 +35,7 @@ public class Testprogramm {
 	}
 
 	private static void fillQueue(Queue queue) {
-		queue.add(new Dummy("Mara Müller", 1));
+		queue.add(new Dummy("Mara MÃ¼ller", 1));
 		queue.add(new Dummy("Max Muster", 2));
 		queue.add(new Dummy("Foo Bar", 3));
 		queue.add(new Dummy("Lorem Ipsum", 4));

@@ -5,9 +5,6 @@ import java.util.LinkedList;
 
 public class Programm {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		LinkedList<String> liste = new LinkedList<>();
 		

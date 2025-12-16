@@ -1,50 +1,50 @@
 
 public class AeussereKlasse {
-	private int zahl;
-	
-	public AeussereKlasse(int z){
-		setZahl(z);
-	}
+    private int zahl;
 
-	public int getZahl() {
-		return zahl;
-	}
+    public AeussereKlasse(int z) {
+        setZahl(z);
+    }
 
-	public void setZahl(int zahl) {
-		this.zahl = zahl;
-	}
-	
-	public void meineMethode(){
-		
-		class InnereKlasse{
-			private int meineZahl;
-			
-			public InnereKlasse(int z){
-				setMeineZahl(z);
-			}
+    public int getZahl() {
+        return zahl;
+    }
 
-			public int getMeineZahl() {
-				return meineZahl;
-			}
+    public void setZahl(int zahl) {
+        this.zahl = zahl;
+    }
 
-			public void setMeineZahl(int meineZahl) {
-				this.meineZahl = meineZahl;
-			}
-			
-			private void ausgeben(){
-				System.out.println("Aus ‰uﬂerer Klasse: zahl = " + zahl);
-				System.out.println("Aus innerer Klasse: meineZahl = " + meineZahl);
-				zahl ++;
-				System.out.println("Aus ‰uﬂerer Klasse: zahl = " + zahl);
-			}
-			
-		}
-		
-		// Hier geht die Methode meineMethode erst richtig los...
-		System.out.println("In meineMethode");
-		InnereKlasse inner1 = new InnereKlasse(3);
-		inner1.ausgeben();
-		InnereKlasse inner2 = new InnereKlasse(4);
-		inner2.ausgeben();
-	}
+    public void meineMethode() {
+
+        class InnereKlasse {
+            private int meineZahl;
+
+            public InnereKlasse(int z) {
+                setMeineZahl(z);
+            }
+
+            public int getMeineZahl() {
+                return meineZahl;
+            }
+
+            public void setMeineZahl(int meineZahl) {
+                this.meineZahl = meineZahl;
+            }
+
+            private void ausgeben() {
+                System.out.println("Aus √§u√üerer Klasse: zahl = " + zahl);
+                System.out.println("Aus innerer Klasse: meineZahl = " + meineZahl);
+                zahl++;
+                System.out.println("Aus √§u√üerer Klasse: zahl = " + zahl);
+            }
+
+        }
+
+        // Hier geht die Methode meineMethode erst richtig los...
+        System.out.println("In meineMethode");
+        InnereKlasse inner1 = new InnereKlasse(3);
+        inner1.ausgeben();
+        InnereKlasse inner2 = new InnereKlasse(4);
+        inner2.ausgeben();
+    }
 }

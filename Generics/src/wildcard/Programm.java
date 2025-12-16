@@ -2,9 +2,6 @@ package wildcard;
 
 public class Programm {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Punkt<?>[] punkte = new Punkt<?>[4];
 		punkte[0] = new Punkt<Integer>(2,3);

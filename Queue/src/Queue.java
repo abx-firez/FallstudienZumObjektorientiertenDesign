@@ -9,8 +9,8 @@ public class Queue {
 		ende = null;
 	}
 
-	// Wir limitieren den Speicherplatz einer Queue hier nicht, weshalb hier kein boolean zurückgegeben wird,
-	// ob das Einfügen erfolgreich war. Unsere Queue kann also ohne Begrenzung wachsen, wohlwissend, dass diese 
+	// Wir limitieren den Speicherplatz einer Queue hier nicht, weshalb hier kein boolean zurÃ¼ckgegeben wird,
+	// ob das EinfÃ¼gen erfolgreich war. Unsere Queue kann also ohne Begrenzung wachsen, wohlwissend, dass diese
 	// Methodensignatur in der Java-Implementierung anders aussieht.
 	public void add(Object inhalt) {
 		if (inhalt != null) {

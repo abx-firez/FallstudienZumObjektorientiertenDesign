@@ -2,9 +2,6 @@ package motivation;
 
 public class Programm {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		PunktInteger pint1 = new PunktInteger(2, 3);
 		PunktInteger pint2 = new PunktInteger(4, 5);

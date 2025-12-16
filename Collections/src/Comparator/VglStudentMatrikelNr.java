@@ -2,7 +2,7 @@ package Comparator;
 
 import java.util.Comparator;
 
-// Die Klasse ist lediglich Tr‰ger der Methode compare, die
+// Die Klasse ist lediglich Tr√§ger der Methode compare, die
 // in dieser Implementierung Studenten nach Matrikelnummer 
 // sortiert.
 

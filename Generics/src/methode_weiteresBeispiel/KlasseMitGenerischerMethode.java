@@ -10,12 +10,12 @@ public class KlasseMitGenerischerMethode {
 	}
 
 	/**
-	 * eine generische Methode, die das Verh‰ltnis zwischen 
+	 * eine generische Methode, die das Verh√§ltnis zwischen
 	 * zwei numerischen Werten berechnet
 	 * @param <T> generischer Typparameter
 	 * @param value1 erster Wert
 	 * @param value2 zweiter Wert
-	 * @return Verh‰ltnis zwischen Wert 1 und Wert 2
+	 * @return Verh√§ltnis zwischen Wert 1 und Wert 2
 	 */
 	public <T extends Number> double calculateRatio(T value1, T value2) {
 		double ratio = value1.doubleValue() / value2.doubleValue();

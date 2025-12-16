@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class Programm {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Integer[] a = new Integer[4];
 		a[0] = Integer.valueOf(12);
@@ -18,24 +15,23 @@ public class Programm {
 		for (Integer i : a) System.out.println(i);
 		
 		Arrays.sort(a);
-		
+
 		System.out.println("Nach Sortierung:");
 		for (Integer i : a) System.out.println(i);
-		
-		
-		Studentin[] s = new Studentin[4];
-		s[0] = new Studentin("Müller", "Marta", 765432);
-		s[1] = new Studentin("Maier", "Hans", 234567);
-		s[2] = new Studentin("Schulze", "Hilde", 123456);
-		s[3] = new Studentin("Mair", "Heike", 435261);
+
+		Student[] s = new Student[4];
+		s[0] = new Student("MÃ¼ller", "Marta", 765432);
+		s[1] = new Student("Maier", "Hans", 234567);
+		s[2] = new Student("Schulze", "Hilde", 123456);
+		s[3] = new Student("Mair", "Heike", 435261);
 		
 		System.out.println("Array s:");
-		for (Studentin i : s) System.out.println(i);
+		for (Student i : s) System.out.println(i);
 		
 		Arrays.sort(s);
 		
 		System.out.println("Nach Sortierung:");
-		for (Studentin i : s) System.out.println(i);
+		for (Student i : s) System.out.println(i);
 	}
 
 }

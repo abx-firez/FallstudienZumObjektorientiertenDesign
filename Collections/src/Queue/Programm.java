@@ -7,9 +7,6 @@ import Comparator.Student;
 
 public class Programm {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Queue<Student> studis = new LinkedList<>();
 		
@@ -21,8 +18,8 @@ public class Programm {
 		System.out.println(studis.poll());
 		System.out.println("---------------------------------");
 		
-		// offer() v.a. wichtig f�r ArrayBlockingQueue<T>
-		// gibt false zur�ck, wenn Element nicht eingef�gt werden kann, da Queue voll
+		// offer() v.a. wichtig für ArrayBlockingQueue<T>
+		// gibt false zurück, wenn Element nicht eingefügt werden kann, da Queue voll
 		studis.offer(new Student("Meier", "Hanna", 555555, 2, 184));
 		Student s;
 		while ((s = studis.poll()) != null) {

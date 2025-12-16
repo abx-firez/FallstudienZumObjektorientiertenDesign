@@ -2,9 +2,6 @@ package methode;
 
 public class Programm {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Punkt<Integer> p1 = new Punkt<Integer>(2,3);
 		Punkt<Integer> p2 = new Punkt<Integer>(4,5);

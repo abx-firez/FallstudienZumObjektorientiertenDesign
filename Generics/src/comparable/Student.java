@@ -1,11 +1,11 @@
 package comparable;
 
-public class Studentin implements Comparable<Studentin> {
+public class Student implements Comparable<Student> {
 	private String name;
 	private String vorname;
 	private int matrikelNr;
 
-	public Studentin(String n, String v, int m) {
+	public Student(String n, String v, int m) {
 		setName(n);
 		setVorname(v);
 		setMatrikelNr(m);
@@ -39,7 +39,7 @@ public class Studentin implements Comparable<Studentin> {
 		return "Name: " + name + " Vorname: " + vorname + " Matrikelnr: " + matrikelNr;
 	}
 
-	public int compareTo(Studentin s) {
+	public int compareTo(Student s) {
 		if (matrikelNr == s.getMatrikelNr()) {
 			return 0;
 		} else if (matrikelNr < s.getMatrikelNr()) {

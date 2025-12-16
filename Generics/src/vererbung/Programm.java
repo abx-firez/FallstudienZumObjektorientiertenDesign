@@ -2,9 +2,6 @@ package vererbung;
 
 public class Programm {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		ElternA<Double> eA = new KindB<Double>();
 		eA.methodeA(4.5);
